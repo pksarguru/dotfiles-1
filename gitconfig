@@ -1,11 +1,12 @@
 [core]
+  editor = "atom --wait"
   excludesfile = ~/.gitignore_global
 [help]
   autocorrect = 1
 [alias]
   st = status
 [push]
-  default = tracking
+  default = current
 [user]
   name = "Pavan Sarguru"
   email = "pavan.sarguru@gmail.com"
