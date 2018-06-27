@@ -6,7 +6,6 @@ fi
 # load zgen
 source "${HOME}/.zgen/zgen.zsh"
 if ! zgen saved; then
-  echo "Creating a zgen save"
   zgen prezto
   zgen prezto git
   zgen prezto command-not-found
